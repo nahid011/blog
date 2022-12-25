@@ -1,0 +1,234 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+}
+/* heder start */
+.menu{
+    background: url(../media/banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.sky{
+    padding-left: 100px;
+   
+
+}
+.name{
+    padding-left: 100px;
+    margin-top: 150px;
+}
+h1{
+    padding-left: 100px;
+    color: #ffff;
+}
+.para{
+    padding-left: 100px;
+    max-width: 600px;
+    color: #ffff;
+}
+span{
+    color:rgb(23, 23, 252) ;
+}
+.navbar a.nav-link {
+    transition: all 1s;
+    margin: 0 10px;
+}
+.nav-link:hover{
+    background-color: rgb(180, 116, 253);
+    transform: scale(1.2);
+}
+/* heder end */
+
+/* media section start */
+.media{
+    background-color: rgb(201, 228, 252);
+}
+.thebest{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+.service{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.box-1{
+    display: flex;
+}
+.icon{
+    font-size: 35px;
+}
+.mori{
+    padding-left: 20px;
+}
+
+.box-4{
+    display: flex;
+}
+.box{
+    margin-top: 50px;
+}
+
+/* media section end*/
+
+/* about section start */
+
+.about{
+    background-color: rgb(209, 204, 204);
+   max-width: 100%;
+   padding: 60px 80px;
+  
+}
+.wlc{
+   
+    padding-top: 60px;
+    text-decoration: underline;
+}
+button{
+    background-color: rgb(65, 65, 255);
+    color: #ffff;
+    padding: 10px 40px;
+}
+.about-img{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/* about section end */
+
+/* work section start*/
+.see{
+    text-decoration: underline;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.work{
+    color: #0000;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+
+/* work section end*/
+
+/* number section start */
+.number-section{
+    background-color: rgb(182, 248, 248);
+    padding-top: 100px;
+    height: 250PX;
+    margin-top: 60px;
+}
+.number__icon{
+    font-size: 30px;
+}
+.number{
+    display: flex;
+}
+.num{
+    /* padding-left: 10px; */
+    font-size: 25px;
+}
+/* number section end */
+
+/* my skills start */
+.skil{
+    padding: 40px;
+}
+.my{
+    padding-bottom: 20px;
+}
+.border-b{
+border: 1px solid rgb(0, 0, 0);
+width: 450px;
+}
+.placeholder{
+    color: red;
+}
+.pic{
+    background: url(../media/Untitled-1.jpg);
+    width: 100vw;
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+}
+.para-2{
+    color: #ffff;
+    max-width: 900px;
+   padding-left: 340px; 
+   padding-top: 110px;
+}
+.date {
+    width: 50px;
+}
+
+.testimonial-info img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* my skills end*/
+
+/* blog start */
+.our-work{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+} 
+.blog{
+    text-align: center;
+    font-size: 40px;
+}
+.blog-pic{
+    padding-top: 20px;
+}
+.blog-para{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.eye-icon{
+    color: rgb(252, 59, 25);
+    font-size: 20px;
+}
+.sms-icon{
+    color: rgb(83, 245, 245);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/* blog end */
+
+/* footer start */
+footer{
+    
+    background: url(../media/ferbg.jpg);
+    width: 100vw;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: #ffff;
+    margin-top: 70px;
+    padding-top: 40px;
+   
+}
+.sosel-media{
+    color: rgb(44, 247, 247);
+    padding-left: 10px;
+}
+.nahid{
+    text-align: center;
+}
+
+.footer__blog h5,
+.footer__blog p {
+    font-size: 13px;
+}
+/* footer end */
